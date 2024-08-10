@@ -1,7 +1,7 @@
 [
   {
     "name": "The Forgotten Kingdom of Wasteland",
-    "LeaderName":"The King",
+    "leaderName":"The King",
     "adjective": ["King"],
     "preferredVictoryType": "Cultural", // should be changed and it will probably be changed to diplomatic
     "personality": "Monarch"
