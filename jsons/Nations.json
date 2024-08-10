@@ -31,16 +31,16 @@
     "spyNames": [ "spy1", "spy2", "spy3", "spy4", "spy5","spy6","spy7","spy8", "spy9", "spy10",]
   } 
 {
-		"name": "Soundful City",
+		"name": "The Sounds",
 		"adjective": ["Vocaloid"],
 		"cityStateType": "Culture",
 		"style": "",
-		"uniques": ["Starts with [Secrets of the Past]",],
+		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
 		"declaringWar": "Let the music flow freely.",
 		"attacked": "Sounds of your despair will be heard for long time.",
-		"defeated": "Please... Spread the Sounds",
+		"defeated": "Please... Spare our voices",
 		"outerColor": [0, 0, 0],
-		"innerColor": [159, 58, 83],
+		"innerColor": [33, 43, 240],
 		"cities": ["Color of Noise"]
 	},
 ]
