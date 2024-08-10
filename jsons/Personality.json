@@ -1,1 +1,35 @@
-
+[
+	{
+		"name": "Monarch",
+		"food": 5,
+		"production": 6,
+		"gold": 7,
+		"science": 7,
+		"culture": 5,
+		"faith": 4,
+		"happiness": 5,
+		"military": 7,
+		"aggressive": 3,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 8,
+		"loyal": 8,
+		"expansion": 6,
+		"priorities": {
+			
+      
+      "Adaptation": 40,
+			"Expansionism": 20,
+			"Sovereignty": 30,
+			"Theocracy": 20,
+			"Rationalism": 20,
+			"Constitution": 30,
+			"Supremacy": 0,
+			"Monopoly": 20,
+			"Collectivism": 20,
+			"Naturalism": 30,
+			"Mechanization": 0,
+			"Bionics": 30
+		}
+	}
+]
