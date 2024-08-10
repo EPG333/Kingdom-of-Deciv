@@ -1,0 +1,46 @@
+[
+  {
+    "name": "The Forgotten Kingdom of Wasteland",
+    "LeaderName":"The King",
+    "adjective": ["King"],
+    "preferredVictoryType": "Cultural", // should be changed and it will probably be changed to diplomatic
+    "personality": "Monarch"
+    "favoredReligion": "Polytheism", // or some other religion its a placeholder for now
+
+    // Not wise replacements,
+    "startIntroPart1":"I'm "
+    "startIntroPart2": "King"
+    "declaringWar": "I just don't like you, really, just that"
+    "attacked": " Dude. Uncool"
+    "defeated": "We have fallen...? But man is not made for defeat, how could have this came to be?",
+    "introduction":" Welcome, welcome to my dearest Kindom"
+    "neutralHello": "Yes?"
+    "hateHello": "*Angry* Yes?"
+    "tradeRequest": "Wouldn't marry a daughter or son of mine?"
+    "outerColor": [6, 132, 120]
+    "innerColor":  [236, 148, 131],
+    "uniqueName":"Royal Dynasty"
+   "uniques":["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+     "[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
+     // Idea: Conquered cities enter " We love the king day' event
+     // add more uniques
+     "Starts with [Construction]",
+     "Starts with [Iron Working]",
+     "Cannot build [Enslaved] units",]
+     "cities": [ "The Cornation chamber", "Lion Gate", "Flowerbed of Leisure" ]
+    "spyNames": [ "spy1", "spy2", "spy3", "spy4", "spy5","spy6","spy7","spy8", "spy9", "spy10",]
+  } 
+{
+		"name": "Soundful City",
+		"adjective": ["Vocaloid"],
+		"cityStateType": "Culture",
+		"style": "",
+		"uniques": ["Starts with [Secrets of the Past]",],
+		"declaringWar": "Let the music flow freely.",
+		"attacked": "Sounds of your despair will be heard for long time.",
+		"defeated": "Please... Spread the Sounds",
+		"outerColor": [0, 0, 0],
+		"innerColor": [159, 58, 83],
+		"cities": ["Color of Noise"]
+	},
+]
