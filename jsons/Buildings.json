@@ -9,9 +9,11 @@
 "science": 3,
 "food": 2,
  "gold": 1,
-"cost": 2,
+"culture":1,
+  "cost": 1,
 "cityStrength": 7,
 "cityHealth": 70,
+ "uniques": ["Indicates the capital city"]
   },
 
 
