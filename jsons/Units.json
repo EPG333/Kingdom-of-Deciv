@@ -1,0 +1,10 @@
+[
+  {
+    "name":"Guardsman",
+    "replaces": "Spearman",
+    "uniqueTo": "The Forgotten Kingdom of Wasteland",
+   "unitType": "Scrapper",
+    "Movement": 2,
+    "strength": 20,
+  }
+]
