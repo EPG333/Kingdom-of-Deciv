@@ -3,7 +3,7 @@
     "replaces": "Spearman",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
     "unitType": "Scrapper",
-    "Movement": 2,
+    "movement": 2,
     "strength": 22,
     "cost": 65,
     "obsoleteTech": "Rifling",
