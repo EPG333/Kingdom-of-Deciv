@@ -1,10 +1,15 @@
 [
-  {
-    "name":"Guardsman",
+  { "name":"Guardsman",
     "replaces": "Spearman",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
-   "unitType": "Scrapper",
+    "unitType": "Scrapper",
     "Movement": 2,
-    "strength": 20,
+    "strength": 22,
+    "cost": 65,
+    "obsoleteTech": "Rifling",
+    "upgradesTo": "Machete",
+    "uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>",
+    "[+1] Movement <in [Friendly Land] tiles>",],
+    "attackSound": "nonmetalhit"
   }
 ]
