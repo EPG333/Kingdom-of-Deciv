@@ -1,1 +1,19 @@
-
+[
+  {
+    "name": "Golden Castle",
+    "isNationalWonder": true,
+		"replaces": "Bomb Shelter",
+    "uniqueTo": "The Forgotten Kingdom of Wasteland",
+    "production": 3,
+		"cityHealth": 100,
+		"science": 3,
+		"food": 2,
+    "gold": 1,
+		"cost": 2,
+    "cityStrength": 7,
+    "cityHealth": 70,
+  },
+ // { Blue Castle Wall
+ }
+    
+  
