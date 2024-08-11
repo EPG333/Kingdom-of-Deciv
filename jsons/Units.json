@@ -9,7 +9,7 @@
     "obsoleteTech": "Rifling",
     "upgradesTo": "Machete",
     "uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>",
-    "[+1] Movement <in [Friendly Land] tiles>",],
+    "[+1] Movement <in [Friendly Land] tiles>"],
     "attackSound": "nonmetalhit"
   }
 ]
