@@ -7,7 +7,7 @@
     "personality": "Monarch"
     "favoredReligion": "Polytheism", // or some other religion its a placeholder for now
 
-    // Not wise replacements,
+    // Not wise placeholders,
     "startIntroPart1":"I'm "
     "startIntroPart2": "King"
     "declaringWar": "I just don't like you, really, just that"
@@ -21,13 +21,23 @@
     "innerColor":  [236, 148, 131],
     "uniqueName":"Royal Dynasty"
    "uniques":["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-     "[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
-     // Idea: Conquered cities enter " We love the king day' event
-     // add more uniques
-     "Starts with [Construction]",
-     "Starts with [Iron Working]",
-     "Cannot build [Enslaved] units",]
-     "cities": [ "The Cornation chamber", "Lion Gate", "Flowerbed of Leisure" ]
+"[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
+// Idea: Conquered cities enter " We love the king day' event
+ "Comment [+15% [Production] when constructing buildings required for National Wonders]",
+"[+15]% Production when constructing [Monument] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Areospace Facility] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Town Hall] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Medical Lab] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Baracks] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Hospital] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Monastery] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [National] wonders [in all cities]",
+"[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
+"Starts with [Construction]",
+"Starts with [Iron Working]",
+"Cannot build [Enslaved] units",]
+     "cities": [ "The Corn chamber"]
     "spyNames": [ "spy1", "spy2", "spy3", "spy4", "spy5","spy6","spy7","spy8", "spy9", "spy10",]
   } 
 {
