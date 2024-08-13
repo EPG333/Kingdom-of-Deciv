@@ -1,12 +1,12 @@
 game.png
-size: 2048, 512
+size: 32, 28
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
   xy: 4, 44
-  size: 100, 100
-  orig: 100, 100
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
