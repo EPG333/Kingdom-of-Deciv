@@ -13,7 +13,7 @@
     "declaringWar": "I just don't like you, really, just that"
     "attacked": " Dude. Uncool"
     "defeated": "We have fallen...? But man is not made for defeat, how could have this came to be?",
-    "introduction":" Welcome, welcome to my dearest Kindom"
+    "introduction":" Welcome, welcome to my dearest Kingdom"
     "neutralHello": "Yes?"
     "hateHello": "*Angry* Yes?"
     "tradeRequest": "Wouldn't marry a daughter or son of mine?"
@@ -24,7 +24,6 @@
 "[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
 // Idea: Conquered cities enter " We love the king day' event
  "Comment [+15% [Production] when constructing buildings required for National Wonders]",
-"[+15]% Production when constructing [Monument] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Areospace Facility] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Town Hall] buildings [in all cities] <hidden from users>",
@@ -32,7 +31,9 @@
 "[+15]% Production when constructing [Baracks] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Hospital] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Monastery] buildings [in all cities] <hidden from users>",
+"[+15]% Production when constructing [Televison Studio] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [National] wonders [in all cities]",
+"[+15]% Production when constructing [Field Office] buildings [in all cities] <hidden from users>",
 "[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
 "Starts with [Construction]",
 "Starts with [Iron Working]",
