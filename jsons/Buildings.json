@@ -14,18 +14,7 @@
 "cityHealth": 70,
  "uniques": ["Indicates the capital city"]
   },
-  {  "name":"Blacksmith",
-	"replaces": "Forge",
-	"uniqueTo": "The Forgotten Kingdom of Wasteland",
-	"production": 1,
-	"specialistSlots": {"Engineer": 1},
-	"requiredTech": "Iron Working",
-	"uniques": [
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] [in this city] <when above [0] [Power]>",
-			"[+1 Production] [in this city] <with [Machine Parts]>"
-		]
-	},
+ 
 	{
 		"name":"Castle"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
