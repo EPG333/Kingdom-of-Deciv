@@ -20,7 +20,7 @@
     "outerColor": [6, 132, 120]
     "innerColor":  [236, 148, 131],
     "uniqueName":"Royal Dynasty"
-   "uniques":["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+   "uniques":[
 "[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
 // Idea: Conquered cities enter " We love the king day' event
  "Comment [+15% [Production] when constructing buildings required for National Wonders]",
