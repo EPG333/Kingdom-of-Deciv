@@ -46,24 +46,6 @@
 			   ]
 	},
 	{
-		"name":"Military Advisor"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Civil Service",
-		"uniques": [
-		"[+20]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
-		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>"]
-		
-	},
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	{
 		"name": "Nuh uh",
 		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
