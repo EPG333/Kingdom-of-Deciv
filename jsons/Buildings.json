@@ -26,25 +26,7 @@
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
-	{
-		"name":"Castle"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Engineering",
-		"uniques": [
-		"cityStrength": 2,
-		"cityHealth": 40,
-			   ]
-	},
-	{
-		"name":"Bastions"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Engineering",
-		"uniques": [
-		"Only available <in cities with a [Defensive Emplacements]>",
-		"cityStrength": 4,
-		"cityHealth": 50,
-			   ]
-	},
+
 	{
 		"name": "Nuh uh",
 		"replaces": "Congress",
