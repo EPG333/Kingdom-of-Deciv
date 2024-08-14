@@ -26,6 +26,15 @@
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
+	{
+		"name":"Castle"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Engineering",
+		"uniques": [
+		"cityStrength": 2,
+		"cityHealth": 40,
+			   ]
+	},
 
 	{
 		"name": "Nuh uh",
