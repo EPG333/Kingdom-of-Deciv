@@ -37,9 +37,9 @@
 "[+1 Culture, +1 Food, +1 Gold] from every [Great Improvement]",
 "Starts with [Construction]",
 "Starts with [Iron Working]",
-"Cannot build [Enslaved] units",]
+"Cannot build [Enslaved] units"]
      "cities": [ "The Corn chamber"]
-    "spyNames": [ "spy1", "spy2", "spy3", "spy4", "spy5","spy6","spy7","spy8", "spy9", "spy10",]
+    "spyNames": [ "spy1", "spy2", "spy3", "spy4", "spy5","spy6","spy7","spy8", "spy9", "spy10"]
   } 
 {
 		"name": "The Sounds",
