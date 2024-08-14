@@ -1,24 +1,27 @@
 To do List
-- forge -> Blacksmith
 - Defense building not replacments - Bastion/ bulwark, Castle
 Biggest Ideas:
 Royal Advisors
 Advisors are:
 buildable after adopting proper policies
 replacemnts for council and congress buildings but are not treated as  both of them
+Advisors give bonuses and maluses
+Unique Wonder Ideas:
+Crown chamber ( Gold+culture+happines+administratorslot)
+Blue Wall (City Health/Strenght increase + culture + Happiness + Walls Building)
 
-
-
+"Religion" (Ideology) name Ideas:
+Monarchy
 
 After sovereignity
-- Military +20% strenght in foreign lands |  -20% strenght in friendly lands, +25% maintenance cost for units // +50% or +25% exp gain // x units cost no maintenance, +5% strenght for personell units
+- Military: +20% strenght in foreign lands |  -20% strenght in friendly lands, +25% maintenance cost for units // +50% or +25% exp gain // x units cost no maintenance, +5% strenght for personell units
 After Rationalism
-- Research +x amount of science in cities ( from science buildings or not), and +X% od science in connected cities and Capital ( Capital gets additional +5% no matter what) This % science bonus scales with each new era (+10% science in neofeudal era -> +5% science in rebuilding era going to zero 'that is only an example')| each city gets lowered water output by flat 5 and 10%
+- Research: +x amount of science in cities ( from science buildings or just flat science), and +X% od science in connected cities and Capital ( Capital gets additional +5% no matter what) This % science bonus scales with each new era (+10% science in neofeudal era -> +5% science in rebuilding era going to zero 'that is only an example')| each city gets lowered water output by flat 5 and 10%
 After Constitution
-- Culture Each city defense builidng grants culture and unique defense building give +5% culture, (If its possible lowers the city strenght, health) and gives unit -20% strenght malus
+- Culture: Each city defense builidng grants culture and unique defense building give +5% culture, (If its possible lowers the city strenght, maybe health) and gives unit -20% strenght malus ( - 25% City strenght normally and -15 Strenght from defensive buildings and -40 strenght for cities with garrison when attacking after adopting castle doctrine) 
 After Monopoly
-- Economic Increses water yields from moisture traps by +1 and each water building gives +1/+2/+3 water (possible change to give cheaper things in cities), cities get -20% to unit production -10% to building production and possible science malus to counterreact gold slider
-Get ideas for these 3 (4 if happiness advisor will get added too)
+- Economic: Increses water yields from moisture traps by +1 and each water building gives +1/+2/+3 water (possible change to give cheaper things in cities), cities get -20% to unit production -10% to building production and possible science malus to counterreact gold slider
+Get ideas for these 3 (4 if happiness advisor will be added too)
 After Expansionism??
 - Happiness??
 After Theocracy
@@ -30,4 +33,4 @@ After Adaptation
 
 Note: Supermacy advisor maybe will take place for severeignity advisor
 
-Sovereignity advisor could get +exp for new units and gain gold from conquering cities/barb encampments
+ Then Sovereignity advisor could get +exp for new units and gain gold from conquering cities/barb encampments plus something 
