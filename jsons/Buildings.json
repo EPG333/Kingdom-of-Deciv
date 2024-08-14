@@ -50,7 +50,8 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		""
+		"[+20]% Strength <for [Land] units> <when fighting in [Enemy] tiles>",
+		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
 
 			
 		]
