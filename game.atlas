@@ -1,19 +1,33 @@
 
 game.png
-size: 256, 128
+size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Bastions
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Golden Castle
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 112, 76
+  xy: 328, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/UnitIcons/Guardsman
+UnitIcons/Guardsman
   rotate: false
-  xy: 4, 4
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
