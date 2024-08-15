@@ -11,5 +11,16 @@
     "uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>",
     "[+1] Movement <in [Friendly Land] tiles>"],
     "attackSound": "nonmetalhit"
+  },
+  {
+    "name":"Great Noble",
+    "replaces": "Great Administrator ",
+    "uniqueTo": "The Forgotten Kingdom of Wasteland",
+    "unitType": "Civilian",
+    "movement": 2
+    "uniques": ["Can instantly construct a [Noble Residency] improvement <by consuming this unit>",
+			"Great Person - [Culture]",
+			"Uncapturable", "Unbuildable"],
+  
   }
 ]
