@@ -6,13 +6,13 @@
     "terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-       "[+1 Gold] <after discovering [Trade]>",
-      "[+1 Gold] <after discovering [Currency]>",
-      "[+1 Happiness] <after discovering [Civil Service]>",
-			"[+1 Culture] <after discovering [Social Engineering]>",
-			"[+2 Culture] <after discovering [Incentivization]>",
-			"Removes removable features when built",
-			"Pillaging this improvement yields approximately [+20 Gold]",
-	 "Only <with [1] to [0] neighboring [City Center] tiles>"]
+        "[+1 Gold] <after discovering [Trade]>",
+        "[+1 Gold] <after discovering [Currency]>",
+        "[+1 Happiness] <after discovering [Civil Service]>",
+	"[+1 Culture] <after discovering [Social Engineering]>",
+	"[+2 Culture] <after discovering [Incentivization]>",
+	"Removes removable features when built",
+	"Pillaging this improvement yields approximately [+20 Gold]",
+	"Buildable <with [1] to [2] neighboring [City center] tiles>",]
   }
 ]
