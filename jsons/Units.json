@@ -14,7 +14,7 @@
   },
   {
     "name":"Great Noble",
-    "replaces": "Great Administrator ",
+    "replaces": "Great Administrator",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
     "unitType": "Civilian",
     "movement": 2
