@@ -20,12 +20,13 @@
 "cost":0
 "isWonder": true,
 "culture":1,
-"Comment [2 free Guardsman units appear]",
+
 "cityStrength": 5,
 "cityHealth": 100,
  
 	
 "uniques":[
+"Comment [2 free Guardsman units appear]",
 "[2] free [Spearman] units appear <hidden from users>",
 "[+2] Unit Supply",
 "Gain a free [Walls] [in this city]",
