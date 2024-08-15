@@ -13,6 +13,6 @@
 	"[+2 Culture] <after discovering [Incentivization]>",
 	"Removes removable features when built",
 	"Pillaging this improvement yields approximately [+20 Gold]",
-	"Buildable <with [1] to [2] neighboring [City center] tiles>",]
+	"Buildable <in tiles adjacent to [City center] tiles>",]
   }
 ]
