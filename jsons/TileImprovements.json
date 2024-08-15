@@ -2,7 +2,7 @@
   {
 		"name": "Noble Residency",
 		"culture": 2,
-		"Happiness": 1,
+		"happiness": 1,
     "terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
