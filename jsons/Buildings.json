@@ -15,7 +15,7 @@
  "uniques": ["Indicates the capital city"]
   },
 
-{ "name": "The Blue wall" 
+{ "name": "The Blue Wall" 
 "uniqueTo": "The Forgotten Kingdom of Wasteland",
 "cost":0
 "isWonder": true,
@@ -33,7 +33,8 @@
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
-	},
+	"quote": "Sometimes we feel familiar things. Sounds, smells, even touch. Most should be remembered what they mean. Because here are sounds of home."
+}
 
 	{
 		"name":"Castle"
