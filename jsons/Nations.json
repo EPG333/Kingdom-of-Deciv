@@ -6,10 +6,10 @@
     "preferredVictoryType": "Cultural", // should be changed and it will probably be changed to diplomatic
     "personality": "Monarch"
     "favoredReligion": "Polytheism", // or some other religion its a placeholder for now
-
+   
     // Not wise placeholders,
-    "startIntroPart1":"I'm "
-    "startIntroPart2": "King"
+    "startIntroPart1":"How lucky we are to be spared from this disaster that happened upon us. Little to none problems, safe place and many great people are around us. Using our strenght, removing any weaknesses, utilizing anything we can a kingdom was born. Kingdom which in laws and order were made. Place with working and healthy to an extend society. But I have something to say. Today...  Today is the last day of our isolation. Now, without fear and prejudice we stand in front of a new world. Birthed by forces of the past and the future… As a King I'm obligated to serve my people and my kingdom until death takes me away. " ,
+    "startIntroPart2": "I don't know how many bridges we will build, burn and replace. But I know one most improtant thing, whatever lies before our next step. We will overcome it no matter what. We shall show ourselfs to the world."
     "declaringWar": "I just don't like you, really, just that"
     "attacked": " Dude. Uncool"
     "defeated": "We have fallen...? But man is not made for defeat, how could have this came to be?",
