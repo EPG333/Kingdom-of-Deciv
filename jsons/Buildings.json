@@ -14,19 +14,23 @@
 "cityHealth": 70,
  "uniques": ["Indicates the capital city"]
   },
- // Blue wall unique wonder,
-//cityStrength: 5,
-//cityHealth: 100,
-// 2 guradsman units appear,
-//+1 culture,	
-//gain free wall building,	
+{ "name": "The Blue wall" 
+"uniqueTo": "The Forgotten Kingdom of Wasteland",
+"isWonder": true,
+"culture":1,
+"cityStrength": 5,
+"cityHealth": 100,
+ 
+	
+"uniques":[
+"[2] free [Guradsman] units appear",
+"[+2] Unit Supply",
+"Gain a free [Walls] [in this city]",
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
+]
+	},
 
-//,
-//,
-//,
-//,
-//,
-//,
 	{
 		"name":"Castle"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
