@@ -14,8 +14,10 @@
 "cityHealth": 70,
  "uniques": ["Indicates the capital city"]
   },
+
 { "name": "The Blue wall" 
 "uniqueTo": "The Forgotten Kingdom of Wasteland",
+"cost":0
 "isWonder": true,
 "culture":1,
 "cityStrength": 5,
