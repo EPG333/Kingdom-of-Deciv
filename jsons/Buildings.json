@@ -36,8 +36,18 @@
 	"quote": "Sometimes we feel familiar things. Sounds, smells, even touch. Most should be remembered what they mean. Because here are sounds of home."
 }
 
+	
+	{ "name": "Decree of expansion",
+	"isNationalWonder": true,
+	"replaces":"Search for survivors"
+	
+	"uniques":["[1] free [Civilian convoy] units appear",
+		"[1] free [Great Noble] units appear"
+	]
+		
+	},
 	{
-		"name":"Castle"
+		"name":"Castle",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Engineering",
 		"cityStrength": 2,
