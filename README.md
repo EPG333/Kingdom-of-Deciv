@@ -11,7 +11,7 @@ place on world - Author note: TBH I have no clue where Kingdom could be ( NOT Am
 Ruler "The King" ( maybe a name will be added") - Person whose experience and knowledge of politics has made him a virtous king.
 
 Kingdom - *was*  a city-state like being until a decree of anti-isolationism was adopted. Then it started expanding with fear of the unknown.
-But why the name "The Forgotten Kingdom of Wasteland"? Because (~I'm lazy~) other factions named it like that. No one remebers it. (The real name is "Kingdom of 'Capital city name' ")
+But why the name "The Forgotten Kingdom of Wasteland"? Because (~I'm lazy~) other factions named it like that. No one outside this faction knows its name.
 
 But The King has plans covered with mystery.
 
