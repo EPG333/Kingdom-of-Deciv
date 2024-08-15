@@ -37,11 +37,11 @@
 	
 	{ "name": "Decree of expansion",
 	"isNationalWonder": true,
-	"replaces":"Search for survivors"
+	"cost":40,
+	"replaces":"Search for survivors",
 	
-	"uniques":["[1] free [Civilian convoy] units appear",
-		"[1] free [Great Noble] units appear"
-	]
+	"uniques":["[1] free [Civilian Convoy] units appear",
+		"[1] free [Great Noble] units appear"]
 		
 	},
 	{
