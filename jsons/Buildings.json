@@ -66,6 +66,7 @@
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Destroyed when the city is captured"]
 	},
+	// Sovereignity or Supermacy?,
 	{
 		"name":"Military Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -80,6 +81,7 @@
 		"Destroyed when the city is captured"]
 		
 	},
+	// Bad balancing possibility. -25% when fithing barbarians?,
 	{"name":"Cultural Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
@@ -100,7 +102,44 @@
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
-	}
+	},
+	{
+		"name":"Economic Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+		
+	},
+	// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
+	{
+		"name":"Research Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"percentStatBonus": {"science": 5},
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1 Science] from every [Library]",
+		"[+1 Science] from every [University]",
+		"[+1 Science] from every [Public School",
+		"[+1 Science] from every [Laboratory]",
+		"[+1 Science] from every [Data Center]",
+		"[+10]% [Science] [in all cities] <during the [Neofeudal era]>",
+		"[+7]% [Science] [in all cities] <during the [Rebuilding era]>",
+		"[+5]% [Science] [in all cities] <starting from the [Rebuilding era]>",
+		
+		"[-5 Gold] [in all Cities]",
+		"[-10]% [Gold] [in all Cities]",
+		"[-2 Culture] [in all Cities]",
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+		
+	},
+	
 	{
 		"name": "Nuh uh",
 		"replaces": "Congress",
