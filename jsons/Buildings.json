@@ -72,12 +72,35 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+20]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
+		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
 		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
-		"Only available <if [Search for Survivors] is constructed>",
+		
+			"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 		
 	},
+	{"name":"Cultural Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1 Culture] from every [Walls]",
+		"[+1 Culture] from every [Defensive Emplacements]",
+		"[+1 Culture] from every [Hardened Defenses]",
+		"[+1 Culture] from every [Bunker]",
+		"[+1 Culture] from every [Battery]",
+		"[+4 Culutre] from every [Active Denial System]",
+		"[+5]% [Culture] from every [Castle]",
+		"[+5]% [Culture] from every [Bastions]",
+		
+		
+		"[-30]% City Strength from defensive buildings",
+		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Oligarchy]>",
+		"[-20]% Strength for cities <when attacking>",
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+	}
 	{
 		"name": "Nuh uh",
 		"replaces": "Congress",
