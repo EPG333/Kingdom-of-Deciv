@@ -66,6 +66,8 @@
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Destroyed when the city is captured"]
 	},
+	//Advisors 
+	
 	// Sovereignity or Supermacy?,
 	{
 		"name":"Military Advisor"
@@ -76,7 +78,7 @@
 		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
 		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
 		
-			"Only available <if [Search for Survivors] is constructed>",
+		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 		
