@@ -105,13 +105,25 @@
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 	},
+	// Fekin gold slider balance nightmare
 	{
 		"name":"Economic Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-
+		"[+1 Gold] from every [Moisture trap]",
+		"[Gold] cost of purchasing items in cities [-20]%",
+		"[+1 Gold] from every [Market]",
+		"[+1 Gold] from every [Water Storage]",
+		"[+1 Gold] from every [Water Plant]",
+		"[+2 Gold] from every [Greywater Treatment Plant]",
+		"[+3 Gold] from every [Desalination Plant]",
+		"[+5 Gold] from every [Rainwater Purifier]",
 		
+		"Gifts of Gold to City-States generate [-25]% more Influence",
+		"[-15]% Production when constructing [All] buildings [in all cities]",
+		"[+25]% Production when constructing [All] units [in all cities]",
+		 "Cannot convert gold to science with sliders",
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
@@ -126,7 +138,7 @@
 		"uniques": [
 		"[+1 Science] from every [Library]",
 		"[+1 Science] from every [University]",
-		"[+1 Science] from every [Public School",
+		"[+1 Science] from every [Public School]",
 		"[+1 Science] from every [Laboratory]",
 		"[+1 Science] from every [Data Center]",
 		"[+10]% [Science] [in all cities] <during the [Neofeudal era]>",
