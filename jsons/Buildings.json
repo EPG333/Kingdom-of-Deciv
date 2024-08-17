@@ -105,14 +105,14 @@
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 	},
-	// Fekin gold slider balance nightmare
+// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
 	{
 		"name":"Economic Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		"[+1 Gold] from every [Moisture trap]",
 		"[Gold] cost of purchasing items in cities [-20]%",
+		"[+1 Gold] from every [Moisture trap]",
 		"[+1 Gold] from every [Market]",
 		"[+1 Gold] from every [Water Storage]",
 		"[+1 Gold] from every [Water Plant]",
@@ -121,14 +121,30 @@
 		"[+5 Gold] from every [Rainwater Purifier]",
 		
 		"Gifts of Gold to City-States generate [-25]% more Influence",
+		"[-30]% City-State Influence degradation",
 		"[-15]% Production when constructing [All] buildings [in all cities]",
-		"[+25]% Production when constructing [All] units [in all cities]",
-		 "Cannot convert gold to science with sliders",
+		"[-25]% Production when constructing [All] units [in all cities]",
+	
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 		
 	},
+	{
+		"name":"Military Advisor"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+20]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
+		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
+		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+		
+	},
+	// Fekin gold slider balance nightmare. Can't make it better bc of it
 	// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
 	{
 		"name":"Research Advisor"
@@ -144,10 +160,9 @@
 		"[+10]% [Science] [in all cities] <during the [Neofeudal era]>",
 		"[+7]% [Science] [in all cities] <during the [Rebuilding era]>",
 		"[+5]% [Science] [in all cities] <starting from the [Rebuilding era]>",
-		
+		"[-1 Culture, +1 Science] [in all Cities]",
 		"[-5 Gold] [in all Cities]",
 		"[-10]% [Gold] [in all Cities]",
-		"[-2 Culture] [in all Cities]",
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
