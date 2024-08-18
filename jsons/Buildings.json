@@ -183,7 +183,6 @@
 		"[+25]% Natural religion spread [in All Cities]",
 		
 		"[-2 Gold, +1 Faith, +1 Culture] from every [Worship Center]",
-		"[+100]% maintenance cost for [Faith] buildings [in all cities]",
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
