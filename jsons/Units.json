@@ -12,7 +12,22 @@
     "[+1] Movement <in [Friendly Land] tiles>"],
     "attackSound": "nonmetalhit"
   },
-  {
+// They din't have skimrish. Why? It is the curiosity for exploring
+{"name": "Hawk",
+ "replaces": "Scout",
+ "uniqueTo": "The Forgotten Kingdom of Wasteland"
+ "unitType": "Scout",
+ "movement": 2,
+"strength": 15,
+"obsoleteTech": "Rifling",
+"upgradesTo": "Forward Observer",
+"uniques":["Low Tech"
+
+	
+]
+	
+ }
+{
     "name":"Great Noble",
     "replaces": "Great Administrator",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
