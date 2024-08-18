@@ -129,20 +129,7 @@
 		"Destroyed when the city is captured"]
 		
 	},
-	{
-		"name":"Military Advisor"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Civil Service",
-		"uniques": [
-		"[+20]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
-		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
-		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
-		
-		"Only available <if [Search for Survivors] is constructed>",
-		"Can only be built <in [Capital] cities>",
-		"Destroyed when the city is captured"]
-		
-	},
+	
 	// Fekin gold slider balance nightmare. Can't make it better bc of it
 	// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
 	{
@@ -167,7 +154,25 @@
 		"Destroyed when the city is captured"]
 		
 	},
-	
+	{
+		"name":"Expansion Advisor"
+		"cost": 50
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"Food": -4,
+		"uniques": [
+		"[-25]% construction time for [All Road] improvements",
+		"[+25]% Production when constructing [Civilian Convoy] units [in All cities]",
+		"[+2 Food] [in all Cities]",
+
+		"[-1 Gold, -1 Culture] per [3] population [in capital]",
+
+
+		
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+}
 	{
 		"name": "Nuh uh",
 		"replaces": "Congress",
