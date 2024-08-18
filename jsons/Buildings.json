@@ -173,7 +173,22 @@
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 }
-	{
+	// can buy xxx with faith,
+{
+		"name":"Holy Advisor",
+		"cost": 150,
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+25]% Natural religion spread [in All Cities]",
+		
+		"[-2 Gold, +1 Faith, +1 Culture] from every [Worship Center]",
+		"[+100]% maintenance cost for [Faith] buildings [in all cities]",
+		"Only available <if [Search for Survivors] is constructed>",
+		"Can only be built <in [Capital] cities>",
+		"Destroyed when the city is captured"]
+}
+{
 		"name": "Nuh uh",
 		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
