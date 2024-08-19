@@ -18,7 +18,7 @@
     "hateHello": "*Angry* Yes?"
     "tradeRequest": "Wouldn't marry a daughter or son of mine?"
     "outerColor": [6, 132, 120]
-    "innerColor":  [236, 148, 131],
+    "innerColor":  [132, 6, 19],
     "uniqueName":"Royal Dynasty"
    "uniques":[
 "[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
