@@ -80,6 +80,10 @@
 		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
 		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
 		
+		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
+		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
+		"Only available <in cities without a [Research Advisor]> <hidden from users>",
+		
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
@@ -104,6 +108,11 @@
 		"[-30]% City Strength from defensive buildings",
 		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Castle Doctrine]>",
 		"[-20]% Strength for cities <when attacking>",
+				
+		"Only available <in cities without a [Military Advisor]> <hidden from users>",
+		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
+		"Only available <in cities without a [Research Advisor]> <hidden from users>",
+		
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
@@ -123,10 +132,13 @@
 		"[+5 Gold] from every [Rainwater Purifier]",
 		
 		"[Gold] cost of purchasing items in cities [+10]%",
-		"[+33]% City-State Influence degradation",
 		"[-15]% Production when constructing [All] buildings [in all cities]",
 		"[-25]% Production when constructing [All] units [in all cities]",
 	
+		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
+		"Only available <in cities without a [Military Advisor]> <hidden from users>",
+		"Only available <in cities without a [Research Advisor]> <hidden from users>",
+		
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
@@ -152,32 +164,17 @@
 		"[-1 Culture, +1 Science] [in all Cities]",
 		"[-5 Gold] [in all Cities]",
 		"[-10]% [Gold] [in all Cities]",
+		
+		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
+		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
+		"Only available <in cities without a [Military Advisor]> <hidden from users>",
+		
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 		
 	},
 	{
-		"name":"Expansion Advisor"
-		"cost": 50
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Civil Service",
-		"food": -4,
-		"uniques": [
-		"[-25]% construction time for [All Road] improvements",
-		"[+25]% Production when constructing [Civilian Convoy] units [in All cities]",
-		"[+2 Food] [in all Cities]",
-
-		"[-1 Gold, -1 Culture] per [3] population [in capital]",
-
-
-		
-		"Only available <if [Search for Survivors] is constructed>",
-		"Can only be built <in [Capital] cities>",
-		"Destroyed when the city is captured"]
-}
-
-{
 		"name": "Nuh uh",
 		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
