@@ -14,7 +14,7 @@
   },
 
 {
-"name": "Hawk",
+"name": "Hawk Eye",
  "replaces": "Scout",
  "uniqueTo": "The Forgotten Kingdom of Wasteland"
  "unitType": "Scout",
@@ -25,11 +25,16 @@
 "upgradesTo": "Forward Observer",
 "uniques":["Low Tech",
 "[-50]% Strength <vs Cities>",
-"[+25]% Strength <vs [Mounted] units>",	
+"Can see over obstacles",	
 ]
 "promotions": ["Reconnaissance I", "Skirmish"]	
 "attackSound": "nonmetalhit"
-	},
+	"civilopediaText": [
+            {
+                "text": "Better trained and equipped. Armed with knives, a spyglass and morbid curiosity. "
+            }
+        ]
+},
 {
     "name":"Great Noble",
     "replaces": "Great Administrator",
