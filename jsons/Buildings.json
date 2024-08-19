@@ -162,7 +162,7 @@
 		"cost": 50
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
-		"Food": -4,
+		"food": -4,
 		"uniques": [
 		"[-25]% construction time for [All Road] improvements",
 		"[+25]% Production when constructing [Civilian Convoy] units [in All cities]",
