@@ -54,6 +54,7 @@
 		"cityHealth": 40,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
+		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
 		"Destroyed when the city is captured"]	   
 	},
 	{
