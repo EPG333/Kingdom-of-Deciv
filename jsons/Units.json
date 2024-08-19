@@ -24,7 +24,7 @@
 "cost": 30
 "upgradesTo": "Forward Observer",
 "uniques":["Low Tech",
-"[-50]% Strength <vs Cities>",
+"[-50]% Strength <vs cities>",
 "Can see over obstacles",	
 ]
 "promotions": ["Reconnaissance I", "Skirmish"]	
