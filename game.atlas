@@ -18,9 +18,23 @@ BuildingIcons/Golden Castle
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Noble Manor
+  rotate: false
+  xy: 436, 36
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 328, 76
+  xy: 436, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hawk Eye
+  rotate: false
+  xy: 476, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -28,6 +42,13 @@ TileSets/FantasyHex/Units/Guardsman
 UnitIcons/Guardsman
   rotate: false
   xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hawk Eye
+  rotate: false
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
