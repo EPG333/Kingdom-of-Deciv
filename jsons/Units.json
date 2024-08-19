@@ -20,11 +20,12 @@
  "unitType": "Scout",
  "movement": 2,
 "strength": 15,
-"obsoleteTech": "Rifling",
+"obsoleteTech": "Replaceable Parts",
 "cost": 30
 "upgradesTo": "Forward Observer",
 "uniques":["Low Tech",
 "[-50]% Strength <vs cities>",
+"Unable to capture cities",
 "Can see over obstacles",	
 ]
 "promotions": ["Reconnaissance I", "Skirmish"]	
