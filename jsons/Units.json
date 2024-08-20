@@ -36,6 +36,7 @@
             }
         ]
 },
+// Dark line could get -25 strenght against armor units,
 {
 	"name": "Dark Knight",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -45,17 +46,37 @@
 	"cost": 125
 	"requiredTech": "Steel",
 	"obsoleteTech": "Replaceable Parts",
-	"upgradesTo": "Infantry",
+	"upgradesTo": "Dark Slayer",
 	"uniques": [
 			"Low Tech","Personnel",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-50]% Strength <vs [Siege] units>",
+			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
-	
+	//Lets see how ridiculously op this is
+	{
+	"name": "Dark Slayer",
+	"uniqueTo": "The Forgotten Kingdom of Wasteland",
+	"unitType": "Scrapper",
+	"movement": 2,
+	"strength": 65,
+	"cost": 175
+	"requiredTech": "Replaceable Parts",
+	"obsoleteTech": "Energy Weapons",
+	"upgradesTo": "Exo-Trooper",
+	"uniques": [
+			"Low Tech","Personnel",
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-33]% Strength <vs [Siege] units> <when defending>",
+			
+			"Only available <if [Armaments Production Line] is constructed>"
+		],
+		"attackSound": "metalhit"
+},
 {
     "name":"Great Noble",
     "replaces": "Great Administrator",
