@@ -37,6 +37,26 @@
         ]
 },
 {
+	"name": "Dark Knight",
+	"uniqueTo": "The Forgotten Kingdom of Wasteland",
+	"unitType": "Scrapper",
+	"movement": 2,
+	"strength": 40,
+	"cost": 125
+	"requiredTech": "Steel",
+	"obsoleteTech": "Replaceable Parts",
+	"upgradesTo": "Infantry",
+	"uniques": [
+			"Low Tech","Personnel",
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"[-50]% Strength <vs [Siege] units>",
+			"Only available <if [Blast Furnace] is constructed>"
+		],
+		"attackSound": "metalhit"
+},
+	
+{
     "name":"Great Noble",
     "replaces": "Great Administrator",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
