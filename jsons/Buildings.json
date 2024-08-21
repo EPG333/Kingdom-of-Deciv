@@ -175,6 +175,16 @@
 		
 	},
 	{
+		"name":"Migartion Office",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"replaces":"Work Camp",
+		"food": 2,
+		"uniques":[
+		"[+1] population [in this city]",
+		]
+	}
+
+	{
 		"name": "Nuh uh",
 		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -186,6 +196,13 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
+{
+		"name": "Nope",
+		"replaces": "Prison Camp",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	}
+
 
 
 ]
