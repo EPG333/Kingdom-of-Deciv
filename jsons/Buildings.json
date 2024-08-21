@@ -178,9 +178,13 @@
 		"name":"Migartion Office",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Work Camp",
+		"requiredTech": "Construction",
 		"food": 2,
 		"uniques":[
 		"[+1] population [in this city]",
+		"Consumes [1] [Slaves]", 
+		"Only available <with [Slaves]>", 
+		"Unsellable"],
 		]
 	}
 
