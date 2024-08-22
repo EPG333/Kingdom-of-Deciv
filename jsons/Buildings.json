@@ -235,34 +235,6 @@
 		],
 		"requiredTech": "Civil Service"
 	},
-	
-// For fun only
-{		
-		"name": "Rotting World Project",
-		"replaces": "Chemical Weapons Laboratory",
-		"isNationalWonder": true,
-		"requiredTech": "Laboratory",
-		"maintenance": 2,
-		"uniques": [
-			"Only available <after adopting [Supermacy Complete]>",
-			"[Scrapper] units gain the [White Phosphorus Munitions] promotion",
-			"[Shooter] units gain the [White Phosphorus Munitions] promotion",
-			"[Melee Water] units gain the [Logistics] promotion",
-			"[Armor] units gain the [Blitz] promotion",
-			"[Siege] units gain the [Chemical Weapons] promotion",
-			"[Aircraft] units gain the [Chemical Weapons] promotion",
-			"[Helicopter] units gain the [Chemical Weapons] promotion",
-			"Consumes [1] [Power]",
-			"Consumes [1] [Oil]",
-			"Consumes [1] [Uranium]",
-			"comment [Can't build nuclear weapons because you are saving the world]",
-			"[-9999]% Production when constructing [Missle] units [in all cities] <hidden from users>",
-		]	
-	"civilopediaText": [
-			{
-				"text": "The World is like rotting flesh and our job is to cleanse it. Then, healing process can begin"
-			}]
-	},
 {
 		"name": "The King is Congress",
 		"replaces": "Congress",
