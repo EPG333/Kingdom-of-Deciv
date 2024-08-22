@@ -52,10 +52,12 @@
 		"cityStrength": 2,
 		"cost": 120,
 		"cityHealth": 40,
+		"maintenance": 1,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
-		"Destroyed when the city is captured"]	   
+		"Destroyed when the city is captured",
+		"Cost increases by [5] per owned city"]	   
 	},
 	{
 		"name":"Bastions"
@@ -63,10 +65,12 @@
 		"requiredTech": "Engineering",
 		"cityStrength": 4,
 		"cityHealth": 50,
+		"maintenance": 1,
 		"cost": 150,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
-		"Destroyed when the city is captured"]
+		"Destroyed when the city is captured",
+		"Cost increases by [5] per owned city"]
 	},
 	//Advisors 
 	{
@@ -78,6 +82,7 @@
 		"happiness": -1,
 		"uniques": [
 		"[+1 Gold] from every [Administrator] <in this city>",
+		"[+1 Culture] from every [Merchant] <in this city>",
 		"[+1 Gold] per [4] population [in this city]",
 		"[+1 Happiness, +2 Culture] [in this city] <when above [0] [Power]>"],
 		"requiredTech": "Civil Service",
@@ -142,7 +147,12 @@
 		"[+2 Gold] from every [Greywater Treatment Plant]",
 		"[+3 Gold] from every [Desalination Plant]",
 		"[+5 Gold] from every [Rainwater Purifier]",
-		
+		"[+1]% [Gold] from every [Market]",
+		"[+1]% [Gold] from every [Water Storage]",
+		"[+1]% [Gold] from every [Water Plant]",
+		"[+1]% [Gold] from every [Greywater Treatment Plant]",
+		"[+1]% [Gold] from every [Desalination Plant]",
+		"[+1]% [Gold] from every [Rainwater Purifier]",
 		"[Gold] cost of purchasing items in cities [+10]%",
 		"[-15]% Production when constructing [All] buildings [in all cities]",
 		"[-25]% Production when constructing [All] units [in all cities]",
@@ -172,7 +182,7 @@
 		"[+10]% [Science] [in all cities] <during the [Neofeudal era]>",
 		"[+7]% [Science] [in all cities] <during the [Rebuilding era]>",
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]>",
-		"[-1 Culture, +1 Science] [in all Cities]",
+		"[-1 Culture] [in all Cities]",
 		"[-5 Gold] [in all Cities]",
 		"[-10]% [Gold] [in all Cities]",
 		
@@ -190,7 +200,7 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Work Camp",
 		"happiness": 1,
-		"food":1,
+		"food":2,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
@@ -203,19 +213,31 @@
 		"requiredTech": "Construction"
 	},
 	{
-		"name": "Nuh uh",
+		"name": "World Embassy",
+		"replaces": "Public Works Administration",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"cost": 150,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [House of Nobles] is constructed in at least [4] of [Your] cities>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Civil Service"
+	},
+	{
+		"name": "The King is Congress",
 		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Nuh-uh",
+		"name": "The King is Council",
 		"replaces": "Council",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
 {
-		"name": "Nope",
+		"name": "No Prison Camps for The King",
 		"replaces": "Prison Camp",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
