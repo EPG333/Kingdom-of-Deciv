@@ -11,7 +11,8 @@
 "cost": 1,
 "cityStrength": 7,
 "cityHealth": 70,
- "uniques": ["Indicates the capital city"]
+ "uniques": ["Indicates the capital city",
+ "[Personnel] units gain the [Worlds Fervor] promotion"]
   },
 
 { "name": "The Blue Wall" 
