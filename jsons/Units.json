@@ -72,7 +72,7 @@
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Siege] units> <when defending>",
-			
+			"Cost increases by [10] per owned city",
 			"Only available <if [Armaments Production Line] is constructed>"
 		],
 		"attackSound": "metalhit"
