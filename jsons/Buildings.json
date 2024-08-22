@@ -69,7 +69,19 @@
 		"Destroyed when the city is captured"]
 	},
 	//Advisors 
-	
+	{
+		"name": "House of Nobles",
+		"replaces": "Town Hall",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"maintenance": 3,
+		"specialistSlots": {"Administrator": 1},
+		"happiness": -1,
+		"uniques": [
+		"[+1 Gold] from every [Administrator] <in this city>",
+		"[+1 Gold] per [4] population [in this city]",
+		"[+1 Happiness, +2 Culture] [in this city] <when above [0] [Power]>"],
+		"requiredTech": "Civil Service",
+	}
 	// Sovereignity or Supermacy?,
 	{
 		"name":"Military Advisor"
@@ -150,7 +162,6 @@
 	{
 		"name":"Research Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"percentStatBonus": {"science": 5},
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+1 Science] from every [Library]",
