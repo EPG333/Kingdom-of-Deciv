@@ -12,7 +12,7 @@
 "cityStrength": 7,
 "cityHealth": 70,
  "uniques": ["Indicates the capital city",
- "[Personnel] units gain the [Worlds Fervor] promotion"]
+ ]
   },
 
 { "name": "The Blue Wall" 
@@ -213,19 +213,57 @@
 		],
 		"requiredTech": "Construction"
 	},
-	{
+	
+
+//National Unique Replacements
+
+
+// Wish I could make something like: '[+1 Gold] Per Civilization known'
+{
 		"name": "World Embassy",
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"cost": 150,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <if [House of Nobles] is constructed in at least [4] of [Your] cities>",
-			"Cost increases by [30] per owned city"
+			
+			"[+25]% Great Person generation [in this city]",
+			"[+1 Happiness] from every [Administrator]",
+			"[Personnel] units gain the [Worlds Fervor] promotion",
+			"Only available <if [House of Nobles] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [50] per owned city"
 		],
 		"requiredTech": "Civil Service"
 	},
-	{
+	
+// For fun only
+{		
+		"name": "Rotting World Project",
+		"replaces": "Chemical Weapons Laboratory",
+		"isNationalWonder": true,
+		"requiredTech": "Laboratory",
+		"maintenance": 2,
+		"uniques": [
+			"Only available <after adopting [Supermacy Complete]>",
+			"[Scrapper] units gain the [White Phosphorus Munitions] promotion",
+			"[Shooter] units gain the [White Phosphorus Munitions] promotion",
+			"[Melee Water] units gain the [Logistics] promotion",
+			"[Armor] units gain the [Blitz] promotion",
+			"[Siege] units gain the [Chemical Weapons] promotion",
+			"[Aircraft] units gain the [Chemical Weapons] promotion",
+			"[Helicopter] units gain the [Chemical Weapons] promotion",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Oil]",
+			"Consumes [1] [Uranium]",
+			"comment [Can't build nuclear weapons because you are saving the world]",
+			"[-9999]% Production when constructing [Missle] units [in all cities] <hidden from users>",
+		]	
+	"civilopediaText": [
+			{
+				"text": "The World is like rotting flesh and our job is to cleanse it. Then, healing process can begin"
+			}]
+	},
+{
 		"name": "The King is Congress",
 		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
