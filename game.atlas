@@ -1,6 +1,6 @@
 
 game.png
-size: 1024, 128
+size: 2048, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -11,37 +11,51 @@ BuildingIcons/Bastions
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Golden Castle
+BuildingIcons/Decree of Expansion
   rotate: false
   xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Forgotten Kingdom of Wasteland
+BuildingIcons/Golden Castle
   rotate: false
-  xy: 652, 4
+  xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Noble Manor
+BuildingIcons/The Blue Wall
   rotate: false
-  xy: 800, 72
+  xy: 868, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Forgotten Kingdom of Wasteland
+  rotate: false
+  xy: 976, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Representative Manor
+  rotate: false
+  xy: 1124, 72
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 760, 76
+  xy: 1084, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hawk Eye
   rotate: false
-  xy: 760, 40
+  xy: 1084, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -60,16 +74,23 @@ UnitIcons/Dark Slayer
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Great Noble
+  rotate: false
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Guardsman
   rotate: false
-  xy: 436, 4
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hawk Eye
   rotate: false
-  xy: 544, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
