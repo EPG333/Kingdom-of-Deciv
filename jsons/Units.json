@@ -52,6 +52,7 @@
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Siege] units> <when defending>",
+			"Cost increases by [5] per owned city",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
 		"attackSound": "metalhit"
