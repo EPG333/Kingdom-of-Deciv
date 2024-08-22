@@ -78,12 +78,12 @@
 		"attackSound": "metalhit"
 },
 {
-    "name":"Great Noble",
+    "name":"Great Representative",
     "replaces": "Great Administrator",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
     "unitType": "Civilian",
     "movement": 2,
-    "uniques": ["Can instantly construct a [Noble Manor] improvement <by consuming this unit>",
+    "uniques": ["Can instantly construct a [Representative Manor] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Uncapturable", "Unbuildable"],
   
