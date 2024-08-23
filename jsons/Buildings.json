@@ -246,7 +246,7 @@
 		"name": "Worldwide Embassy",
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"cost": 150,
+		"cost": 400,
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
