@@ -75,7 +75,7 @@
 	},
 	//Advisors 
 	{
-		"name": "House of Nobles",
+		"name": "House of Gatherings",
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"maintenance": 3,
@@ -230,7 +230,7 @@
 			"[+25]% Great Person generation [in this city]",
 			"[+1 Happiness] from every [Administrator]",
 			"[Personnel] units gain the [Worlds Fervor] promotion",
-			"Only available <if [House of Nobles] is constructed in all [non-[Puppeted]] cities>",
+			"Only available <if [House of Gatherings] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [50] per owned city"
 		],
 		"requiredTech": "Civil Service"
