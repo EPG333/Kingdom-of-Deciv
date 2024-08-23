@@ -1,6 +1,6 @@
 [
   {
-		"name": "Representative Manor",
+		"name": "Representation Center",
 		"culture": 2,
 		"happiness": 1,
     "terrainsCanBeBuiltOn": ["Land"],
