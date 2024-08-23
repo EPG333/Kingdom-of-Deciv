@@ -36,8 +36,28 @@
 "Starts with [Iron Working]",
 "Comment [Congress and Council buildings are replaced with Royal Advisors]",
 "Cannot build [Enslaved] units"]
-     "cities": [ "The Corn chamber"]
-    "spyNames": [ "Rochter", "Trent", "Klint", "Greg", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
+    "cities": [ 
+    "The Merra",
+    "Brass Cast",
+    "Outline",
+    "The Beacon",
+    "Nevren",
+    "Moreside", 
+    "Leverby",
+    "Underpass",
+    "Rendst",
+    "Eclipsed City",
+    "Mend",
+    "Badwater",
+    "Ironclad",
+   "Ashveil",
+    "Zephyros",
+    "Shattergate",
+    "Dreadkeep",
+   "Ascendia",
+    "Verdance",
+    ]
+    "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
   } 
 //
 //		"name": "The Sounds",
