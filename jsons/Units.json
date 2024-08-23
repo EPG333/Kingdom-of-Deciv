@@ -84,7 +84,7 @@
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
     "unitType": "Civilian",
     "movement": 2,
-    "uniques": ["Can instantly construct a [Representative Manor] improvement <by consuming this unit>",
+    "uniques": ["Can instantly construct a [Representation Center] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
 			"Uncapturable", "Unbuildable"],
   
