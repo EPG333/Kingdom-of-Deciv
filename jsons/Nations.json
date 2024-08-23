@@ -21,8 +21,6 @@
     "innerColor":  [132, 6, 19],
     "uniqueName":"Royal Dynasty"
    "uniques":[
-"[+50]% Golden Age length", // replacemnet for 'enter golden age when reaches new era' because idk if it works
-// Idea: Conquered cities enter " We love the king day' event
  "Comment [+15% [Production] when constructing buildings required for National Wonders]",
 "[+15]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Areospace Facility] buildings [in all cities] <hidden from users>",
@@ -39,19 +37,19 @@
 "Comment [Congress and Council buildings are replaced with Royal Advisors]",
 "Cannot build [Enslaved] units"]
      "cities": [ "The Corn chamber"]
-    "spyNames": [ "spy1", "spy2", "spy3", "spy4", "spy5","spy6","spy7","spy8", "spy9", "spy10"]
+    "spyNames": [ "Rochter", "Trent", "Klint", "Greg", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
   } 
-{
-		"name": "The Sounds",
-		"adjective": ["Vocaloid"],
-		"cityStateType": "Culture",
-		"style": "",
-		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
-		"declaringWar": "Let the music flow freely.",
-		"attacked": "Sounds of your despair will be heard for long time.",
-		"defeated": "Please... Spare our voices",
-		"outerColor": [0, 0, 0],
-		"innerColor": [33, 43, 240],
-		"cities": ["Color of Noise"]
-	},
+//
+//		"name": "The Sounds",
+//		"adjective": ["Vocaloid"],
+//		"cityStateType": "Culture",
+//		"style": "",
+//		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
+//		"declaringWar": "Let the music flow freely.",
+//		"attacked": "Sounds of your despair will be heard for long time.",
+//		"defeated": "Please... Spare our voices",
+//		"outerColor": [0, 0, 0],
+//		"innerColor": [33, 43, 240],
+//		"cities": ["Color of Noise"]
+//	
 ]
