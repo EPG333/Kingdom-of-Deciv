@@ -73,6 +73,7 @@
 		"Destroyed when the city is captured",
 		"Cost increases by [5] per owned city"]
 	},
+	// Idea: Buildable only with Representation Center also given +1 yield
 	{
 		"name": "King's Residence",
 		"replaces": "Town Hall",
@@ -227,7 +228,7 @@
 		"uniques": [
 			"[+1] population [in this city]",
 			"[+1 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"[+1 Production] from every [Representative Manor]",
+			"[+1 Production] from every [Representation Center]",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>",
 			"Unsellable",
@@ -252,10 +253,11 @@
 			"Only available <after adopting [Constitution]>",
 			"[+50]% Golden Age length",
 			"[+1 Production] [in all cities connected to capital]",
-			"[+25]% Great Person generation [in this city]",
+			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
+			"[+3 Culture] [in this city] <after discovering [Flight]>",
 			"[+1 Culture] from every [Administrator] <after discovering [Flight]>",
 			"[+1 Gold] from every [Merchant] <after discovering [Flight]>",
-			"Only available <if [Kings Residence] is constructed in all [non-[Puppeted]] cities>",
+			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Civil Service"
