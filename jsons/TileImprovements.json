@@ -1,7 +1,7 @@
 [
   {
 		"name": "Representation Center",
-		"culture": 2,
+		"culture": 1,
 		"happiness": 1,
     "terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
@@ -12,6 +12,6 @@
 	"[+1 Culture] <after discovering [Social Engineering]>",
 	"[+2 Culture] <after discovering [Incentivization]>",
 	"Removes removable features when built",
-	"Pillaging this improvement yields approximately [+20 Gold]"]
+	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture, +20 Science]"]
   }
 ]
