@@ -223,7 +223,7 @@
 //National Unique Replacements,
 
 
-// Wish I could make something like: '[+1 Gold] Per Civilization known',
+// Wish I could make something like: |+1 Gold| Per Civilization known',
 {
 		"name": "Worlds Embassy",
 		"replaces": "Public Works Administration",
