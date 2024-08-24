@@ -1,0 +1,17 @@
+[
+{
+		"name": "Metal Pyramid",
+		"type": "NaturalWonder",
+		"occursOn": ["Desert"],
+		"culture": 2,
+		"uniques": [
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Permafrost] tiles",
+			"Occurs on latitudes from [30] to [50] percent of distance equator to pole"
+		],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	}
+]
