@@ -109,6 +109,8 @@
 	}	
 	{
 		"name": "Iron smith",
+		"replaces": "Forge"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"maintenance": 1,
 		"cost": 80
 		"hurryCostModifier": 25,
@@ -121,6 +123,8 @@
 	},
 	{
 		"name": "Heavy MetalWorks",
+		"replaces": "Blast Furnace"
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
