@@ -53,7 +53,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [heavy MetalWorks] is constructed>"
+			"Only available <if [Heavy MetalWorks] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
@@ -74,7 +74,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [heavy MetalWorks] is constructed>"
+			"Only available <if [Heavy MetalWorks] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
