@@ -38,7 +38,7 @@
 },
 
 {
-	"name": "Dark Knight",
+	"name": "Dark Knight", // NOT BATMAN
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
@@ -53,7 +53,7 @@
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [Heavy MetalWorks] is constructed>"
+			"Only available <if [Blast Furnace] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
@@ -63,7 +63,7 @@
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
-	"strength": 65,
+	"strength": 60,
 	"cost": 175
 	"requiredTech": "Replaceable Parts",
 	"obsoleteTech": "Energy Weapons",
@@ -72,9 +72,9 @@
 			"Low Tech","Personnel",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs [Siege] units> <when defending>",
+			"[-66]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [Heavy MetalWorks] is constructed>"
+			"Only available <if [Heavy Metal Works] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
