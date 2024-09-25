@@ -293,4 +293,217 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
+
+
+
+{ "name": "Main Warehouse" ,
+"uniqueTo": "All-in-One Company",
+"cost":0
+"isWonder": true,
+"production": 1,
+"food": 2,
+"uniques":[
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
 ]
+	"quote": "."
+},
+{ "name": "Systemic Rejuvination",
+	
+	"isNationalWonder": true,
+	"cost":40,
+	"replaces":"Search for Survivors",
+		"uniqueTo": "All-in-One Company",
+	"uniques":["[1] free [Civilian Convoy] units appear"]
+		
+	},
+{
+		"name": "Food Facility",
+		"replaces":"Food Store",
+		"uniqueTo": "All-in-One Company",
+		"food": 1,
+		"cost": 15,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[25]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>"	]
+	},
+	{
+		"name":"Housing facilities",
+		"uniqueTo": "All-in-One Company",
+		"food": 2,
+		"cost": 1,
+		"uniques": ["[+1] population [in this city]",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		]	   
+	},
+{
+		"name":"Upper Management Division",
+		"uniqueTo": "All-in-One Company",
+		"replaces":"Listening Post",
+		"maintenance": 1,
+		"uniques": [
+		"[-25]% enemy spy effectiveness [in this city]",
+		"Hidden when espionage is disabled",
+		"[-50]% Unhappiness from [Specialists] [in this city] <after discovering [Social Engineering]>",
+		"Destroyed when the city is captured"	]	   
+	"requiredTech": "Civil Service"
+},
+
+{
+		"name": "Solution Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "All-in-One Company",
+
+		"cost": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [1] [Slaves]",
+			"[-1] population [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+{
+		"name": "Business zone",
+		"uniqueTo": "All-in-One Company",
+	        "replaces": "Market",
+		"hurryCostModifier": 25,
+		"gold":1
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+"requiredTech": "Trade",
+
+	},
+
+{
+		"name": "Knowledge Zone",
+		"replaces":"Library",
+		"uniqueTo": "All-in-One Company",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] from [Knowledge site] tiles [in this city]",
+			"Creates a [Knowledge Site] improvement on a specific tile",
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
+			}
+		]
+	},
+{
+		"name": "Collegium Companium",
+		"maintenance": 1,
+		"uniqueTo": "All-in-One Company",
+		"replaces":"University",
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+2 Science] from [Knowledge site] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Site Lab",
+		"replaces":"Research Lab",
+		"uniqueTo": "All-in-One Company",
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 1 },
+		"maintenance": 2,
+		"uniques": [
+			"[+3 Science] from [Knowledge site] tiles [in this city]",
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+{
+		"name": "Information Transfering sector",
+		"replaces":"Decryption Center",
+		"uniqueTo": "All-in-One Company",
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] from [Knowledge site] tiles [in this city]",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] [in this city] <when above [0] [Encrypted Data]>",
+			"Only available <in cities with a [Data Center]>"
+		],
+		"percentStatBonus": { "science": 25 },
+		"requiredTech": "Decryption"
+	}
+// associated with existing factions and those meant to be added (The Forgotten Kingdom, All-in-One Company, Extractinators [they want to use fishes to extract them lol] ),
+	{ 
+"name": "Oceanic De-extinction Project",
+"cost":1250,
+"science": 2,
+"culture": 1,
+"isWonder": true,
+"uniques":[ "Must be next to [Coast]",
+	"[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
+	 "[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>",
+	"[+1 Food] from every [Fish Farm]",
+	"Only available <in cities with a [Fish Farm]>",
+	"Triggers a global alert upon completion"],
+"requiredTech": "Ocean Remediation",
+"quote": "'And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'- Priest of the Old World",
+	
+"civilopediaText": [
+			{
+				"text": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+		}]
+	},	
+	{ 
+"name": "Humanity's Revival Memorial",
+"cost":1250,
+"culture": 3,
+"isWonder": true,
+"uniques":[ 
+	"[+10]% [Culture] [in All cities]",
+	"[+1 Culture] per [3] population [in this city]",
+	"[+2 Production] from every [Monument]",
+	"Triggers a global alert upon completion"
+]
+		"quote": "After the fall comes the rise.",
+"requiredTech": "Advanced Materials",
+"civilopediaText": [
+			{
+				"text": "After the fall comes the rise.",
+		}]
+},
+	
+	{ 
+"name": "Laser Cutting Facility",
+"cost": 1250,
+"culture": 1,
+"production": 5,
+"percentStatBonus": { "production": 30 },
+"isWonder": true,
+"uniques":[ 
+"[+2 Production] from [Manufactory] tiles [in this city]",
+"[+20]% [Production] [in this City] <after discovering [Future Materials]>",
+"Consumes [2] [Power]",
+"Triggers a global alert upon completion"
+]
+	"quote": "An cutting edge of technology has opened its sharp arms to us",
+"requiredTech": "Lasers"
+"civilopediaText": [
+			{
+				"text": "An cutting edge of technology has opened its sharp arms to us",
+		}]
+}
+
+]
+  

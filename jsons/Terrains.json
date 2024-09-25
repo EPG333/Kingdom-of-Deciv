@@ -1,0 +1,35 @@
+[
+// Death Grove TBD
+{
+		"name": "Crumbling Temple",
+		"type": "NaturalWonder",
+		"faith": 2,
+		"occursOn": ["Tundra", "Badlands"],
+		"uniques": [
+		"Must be adjacent to [0] [Coast] tiles",
+		"Must be adjacent to [2] to [2] [Mountain] tiles",
+		"Must be adjacent to [1] to [3] [Hill] tiles",
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+		{
+		"name": "Crystal Cave",
+		"type": "NaturalWonder",
+		"faith": 1,
+		"production": 1,
+		"occursOn": ["Desert"],
+		"uniques": [
+		"Must be adjacent to [0] [Coast] tiles",
+		"Must be adjacent to [1] to [2] [Mountain] tiles",
+		"Must be adjacent to [1] to [3] [Hill] tiles",
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	}
+
+]
