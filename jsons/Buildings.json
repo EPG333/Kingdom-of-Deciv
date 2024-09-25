@@ -503,7 +503,40 @@
 			{
 				"text": "An cutting edge of technology has opened its sharp arms to us",
 		}]
-}
+},
+{
+		"name": "Etabilish Crystal Quarry",
+		"isWonder": true,
+		"requiredTech": "Engineering",
+		"cost": 200,
+		"uniques": ["Must have an owned [Crystal Cave] within [3] tiles",
+			"[+2 Science, +3 Production] from [Crystal Cave] tiles [in all cities]",
+			"[+1 Gold] from every [Scientist]",
+			"[+1 Science] from every [Engineer]",
+			"[+1 Production] from every [Merchant]"
+]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 
+
+{
+		"name": "Temple Restoration",
+		"isWonder": true,
+		"requiredTech": "Education",
+		"cost": 200,
+		"uniques": ["Must have an owned [Crumbling Temple] within [3] tiles",
+			"[+3 Faith, +2 Culture] from [Crumbling Temple] tiles [in all cities]",
+		"[Faith] cost of purchasing [All] units [-25]%",
+]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 ]
   
