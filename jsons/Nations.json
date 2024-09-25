@@ -1,8 +1,8 @@
 [
   {
-    "name": "The Forgotten Kingdom of Wasteland",
+    "name":"The Forgotten Kingdom of Wasteland",
     "leaderName":"The King",
-    "adjective": ["King"],
+    "adjective": ["Forgotten"],
     "preferredVictoryType": "Diplomatic", 
     "personality": "Monarch"
     "favoredReligion": "Naturism",
@@ -20,15 +20,6 @@
     "innerColor":  [132, 6, 19],
     "uniqueName":"Golden Dynasty"
    "uniques":[
- "Comment [Empire enters golden age upon entering new era]",
-"Empire enters golden age <upon entering the [Rediscovering era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Neofeudal era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Rebuilding era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Industrial era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Postmodern era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Information era]> <hidden from users>",
-"Empire enters golden age <upon entering the [New Future era]> <hidden from users>",
-"Empire enters golden age <upon entering the [Singularity era]> <hidden from users>",
 "Comment [+15% [Production] when constructing buildings required for National Wonders]",
 "[+15]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Areospace Facility] buildings [in all cities] <hidden from users>",
@@ -39,7 +30,9 @@
 "[+15]% Production when constructing [Monastery] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Televison Studio] buildings [in all cities] <hidden from users>",
 "[+15]% Production when constructing [Field Office] buildings [in all cities] <hidden from users>",
-"[+1 Culture, +1 Food, +1 Gold] from every [Natural Wonder]",
+"[+15]% Production when constructing [Water Storage] buildings [in all cities] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+"[+1 Culture, +1 Faith] from every [Natural Wonder]",
+"[+100]% Yield from every [Natural Wonder]",
 "Starts with [Construction]",
 "Starts with [Iron Working]",
 "Comment [Congress and Council buildings are replaced with Royal Advisors]",
@@ -66,7 +59,7 @@
     "Verdance",
     ]
     "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
-  } 
+  }, 	
 //
 //		"name": "The Sounds",
 //		"adjective": ["Vocaloid"],
