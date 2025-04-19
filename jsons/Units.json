@@ -1,15 +1,52 @@
 [
-  { "name":"Guardsman",
+  {
+	"name": "Great Pioneer",
+	"replaces": "Civilian Convoy",
+    	"uniqueTo": "The Forgotten Kingdom of Wasteland",
+	"unitType": "Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": [
+		"Founds a new city <by consuming this unit>",
+		"[+15] HP when healing",
+		"All adjacent units heal [+15] HP when healing",
+		"Ignores terrain cost",
+		"Excess Food converted to Production when under construction",
+		"Only available <if [Decree of Expansion] is constructed>",
+		"Requires at least [3] population"],
+	"hurryCostModifier": 20
+	},
+	
+{ "name":"Guardsman",
     "replaces": "Spearman",
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
     "unitType": "Scrapper",
     "movement": 2,
-    "strength": 22,
-    "cost": 55,
+    "strength": 25,
+    "cost": 50,
     "obsoleteTech": "Rifling",
-    "upgradesTo": "Machete",
-    "uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>",
+    "upgradesTo": "Militia",
+    "uniques": [
+    "Low Tech", 
+    "[+50]% Strength <vs [Mounted] units>",
+    "[+25]% Strength <in [Friendly Land] tiles>",
     "[+1] Movement <in [Friendly Land] tiles>"],
+    
+   "attackSound": "nonmetalhit"
+  },
+{ "name":"Vanguard",
+"replaces": "Machete",
+"uniqueTo": "The Forgotten Kingdom of Wasteland",
+"unitType": "Scrapper",
+"movement": 2,
+"strength": 26,
+"cost": 50,
+"obsoleteTech": "Rifling",
+"upgradesTo": "Militia",
+"uniques": [
+"Low Tech", 
+"[+25]% Strength <vs [Barbarian] units>",
+"[+50]% Strength <vs [Low Tech] units>"],
     "attackSound": "nonmetalhit"
   },
 
@@ -19,11 +56,13 @@
  "uniqueTo": "The Forgotten Kingdom of Wasteland"
  "unitType": "Scout",
  "movement": 2,
-"strength": 15,
+"strength": 12,
 "obsoleteTech": "Replaceable Parts",
-"cost": 30
+"cost": 25
 "upgradesTo": "Forward Observer",
-"uniques":["Low Tech",
+"uniques":[
+"Low Tech",
+"[+1] Sight",
 "[-50]% Strength <vs cities>",
 "Unable to capture cities",
 "Can see over obstacles",	
@@ -43,40 +82,54 @@
 	"unitType": "Scrapper",
 	"movement": 2,
 	"strength": 40,
-	"cost": 125
+	"cost": 100
 	"requiredTech": "Steel",
 	"obsoleteTech": "Replaceable Parts",
 	"upgradesTo": "Dark Slayer",
 	"uniques": [
-			"Low Tech","Personnel",
+			"Low Tech","Personnel", "Dark Soldier",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 },
-	//Lets see how ridiculously op this is
 	{
 	"name": "Dark Slayer",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
-	"strength": 60,
+	"strength": 55,
 	"cost": 175
 	"requiredTech": "Replaceable Parts",
 	"obsoleteTech": "Energy Weapons",
-	"upgradesTo": "Exo-Trooper",
+	"upgradesTo": "Dark Corruptor",
 	"uniques": [
-			"Low Tech","Personnel",
+			"Low Tech","Personnel", "Dark Soldier",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-66]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [Heavy Metal Works] is constructed>"
+			"Only available <if [Great Metals Foundry] is constructed>"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+},
+{
+	"name": "Dark Corruptor",
+	"uniqueTo": "The Forgotten Kingdom of Wasteland",
+	"unitType": "Scrapper",
+	"movement": 3,
+	"strength": 95,
+	"cost": 350
+	"requiredTech": "Energy Weapons",
+	"uniques": [
+			"Personnel", "Dark Soldier",
+			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+25]% Strength <vs [Personnel] units>",
+			"[-33]% Strength <vs [Armor] units>",
+			"Only available <if [Automated Factory] is constructed>"
+		],
+			"attackSound": "metalhit",
 },
 {
     "name":"Great Representative",
@@ -86,7 +139,8 @@
     "movement": 2,
     "uniques": ["Can instantly construct a [Representation Center] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
-			"Uncapturable", "Unbuildable"],
+			"Is part of Great Person group [Administrator]",
+	    		"Uncapturable", "Unbuildable","Cannot be purchased"],
   
-  }
+  },
 ]
