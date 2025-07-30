@@ -1,5 +1,4 @@
-[
-   {
+ {
 "name": "Golden Castle",
 "isNationalWonder": true,
 "replaces": "Bomb Shelter",
@@ -25,13 +24,12 @@
 "uniques":[
 "[1] free [Guardsman] units appear",
 "[1] free [Vanguard] units appear",
-"[+4] Unit Supply",
-"[4] units cost no maintenance",
+"[+10]% City Strength from defensive buildings",
 "Gain a free [Walls] [in this city]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
-	"quote": "Sometimes we feel familiar things. Sounds, smells, even touch. Most of feelings should resemble places improtant to a preson. And you know what,  Here I feel at home."
+	"quote": "Sometimes we feel familiar things. Sounds, sense of familiar smells, even touch of our closest people. Most of these feelings should resemble places improtant to a preson. And you know what,  Here I feel just like at home."
 }
 
 	
@@ -43,7 +41,10 @@
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"uniques":["Free [Great Representative] appears",
 		"Free [Civilian Convoy] appears"]
-		
+	"civilopediaText": [
+			{
+				"text": "From now this kingdom shall expand its frontiers the Wall."
+			}]	
 	},
 	{
 		"name":"Castle",
@@ -68,13 +69,13 @@
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Destroyed when the city is captured"]
 	},
-	// Idea: Buildable only with Representation Center also given +1 yield
 	{
 		"name": "King's Residence",
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"cost":160,
 		"maintenance": 1,
+		"happiness": 1,
 		"uniques": [
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
@@ -102,6 +103,7 @@
 			"Only available <when espionage is enabled>",
 			"Destroyed when the city is captured"]	   
 		"requiredTech": "Radio"
+	
 },
 		{
 		"name": "World's Cable",
@@ -117,6 +119,10 @@
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
 		],
+				"civilopediaText": [
+			{
+				"text": "And now from the wastes of Americas, through the land of old Europe, to the Asian and Australian regions. We KED, present 'The World's Cable'! For more imformation please switch to channel two. "
+			}]
 		"requiredTech": "Electronics"},
 
 	{
@@ -134,6 +140,10 @@
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
+			"civilopediaText": [
+		{
+			"text": "Well with the prolonged time of isolation people get really creative with scarce resources"
+		}]
 	},
 
 	{
@@ -142,7 +152,7 @@
 		"replaces": "Factory",
 		"percentStatBonus": { "production": 20 },
 		"specialistSlots": { "Engineer": 2 },
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Only available <in cities with a [Library]>",
@@ -150,13 +160,13 @@
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+3 Production] [in this city] <when above [0] [Coal]>",
-			
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
 			"Consumes [1] [Power]",
 		],
 		"requiredTech": "Manufacturing",
 		"civilopediaText": [
 			{
-				"text": "This building is required for the construction of advanced and 'Dark' line unit"
+				"text": "This building is required for the construction of advanced and 'Dark' line units."
 			}
 		]
 	},
@@ -191,7 +201,6 @@
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 	},
-// actually good when at war ???
 	{
 		"name":"Economic Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -209,7 +218,7 @@
 		"[+15]% [Gold] [in all cities] <starting from the [Industrial era]> <hidden from users>",
 		
 		"[-15]% Production when constructing [All] buildings [in all cities]",
-		"[-15]% Production when constructing [All] units [in all cities]",
+		"[-25]% Production when constructing [All] units [in all cities]",
 	
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
 		"Only available <in cities without a [Research Advisor]> <hidden from users>",
@@ -235,7 +244,9 @@
 		"[+15]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
 		"[+10]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]> <hidden from users>",
-		"[-5]% [Gold] [in all cities] <starting from the [Neofeudal era]> <hidden from users>",
+		"[-5]% [Gold] [in all cities] <during the [Neofeudal era]> <hidden from users>",
+		"[-5]% [Gold] [in all cities] <during the [Rebuilding era]> <hidden from users>",
+		"[-5]% [Gold] [in all cities] <starting from the [Industrial era]> <hidden from users>",
 		"[-10]% [Culture] [in all cities] <during the [Neofeudal era]> <hidden from users>",
 		"[-7]% [Culture] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[-5]% [Culture] [in all cities] <starting from the [Industrial era]> <hidden from users>",
@@ -280,7 +291,6 @@
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
 			"Gain [75] [Culture] <upon declaring friendship>",
 			"Gain [75] [Culture] <upon declaring a defensive pact>",
@@ -323,5 +333,4 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	}
-]
+	},z
