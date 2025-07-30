@@ -78,11 +78,12 @@
 
 {
 	"name": "Dark Knight", 
+	"replaces": "Soldier",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
 	"strength": 40,
-	"cost": 100
+	"cost": 120
 	"requiredTech": "Steel",
 	"obsoleteTech": "Replaceable Parts",
 	"upgradesTo": "Dark Slayer",
@@ -97,11 +98,12 @@
 },
 	{
 	"name": "Dark Slayer",
+	"replaces": "Infantry",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
-	"strength": 55,
-	"cost": 175
+	"strength": 50,
+	"cost": 150
 	"requiredTech": "Replaceable Parts",
 	"obsoleteTech": "Energy Weapons",
 	"upgradesTo": "Dark Corruptor",
@@ -116,6 +118,7 @@
 },
 {
 	"name": "Dark Corruptor",
+	"replaces": "Exo-Trooper",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 3,
