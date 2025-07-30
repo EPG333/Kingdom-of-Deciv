@@ -1,4 +1,4 @@
- {
+[ {
 "name": "Golden Castle",
 "isNationalWonder": true,
 "replaces": "Bomb Shelter",
@@ -333,4 +333,5 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},z
+	}
+]
