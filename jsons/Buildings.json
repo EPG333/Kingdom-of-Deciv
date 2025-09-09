@@ -99,7 +99,7 @@
 		"uniques": [
 			"[+1 Gold, +1 Science] from [Natural Wonder] tiles [in this city]",
 			"[-25]% enemy spy effectiveness [in this city]",
-			"Remove extra unhappiness from annexed cities",
+			"Removes extra unhappiness from annexed cities",
 			"Only available <when espionage is enabled>",
 			"Destroyed when the city is captured"]	   
 		"requiredTech": "Radio"
